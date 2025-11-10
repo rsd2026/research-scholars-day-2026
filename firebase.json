@@ -10,7 +10,7 @@
       {
         "type": 301,
         "source": "/:path*",
-        "destination": "https://rsd2026.github.io/research-scholars-day-2026/"
+        "destination": "https://rsd2026.github.io/research-scholars-day-2026/#home"
       }
     ]
   }
