@@ -10,7 +10,7 @@
       {
         "type": 301,
         "source": "/:path*",
-        "destination": "https://your-username.github.io/your-repo-name/:path"
+        "destination": "https://rsd2026.github.io/research-scholars-day-2026/"
       }
     ]
   }
