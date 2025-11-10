@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "rsd-2026"
+  },
+  "targets": {
+    "rsd-2026": {
+      "hosting": {
+        "redirect-site": [
+          "rsd-2026"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
