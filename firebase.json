@@ -6,11 +6,30 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [
+    "headers": [
       {
-        "type": 301,
-        "source": "/:path*",
-        "destination": "https://rsd2026.github.io/research-scholars-day-2026/#home"
+        "source": "/index.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(css|js|png|jpg|jpeg|svg|gif|ico|woff2|ttf)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=600"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }
